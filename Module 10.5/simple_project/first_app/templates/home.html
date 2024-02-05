@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is home page</h1>
+    <h2>{{ lst | join:" - " }}</h2>
+    <h2>{{ date | date:"D d M Y" }}</h2>        
+    <h2>{{ add | add:"50" }}</h2>        
+    <h2>{{ capfirst | capfirst }}</h2>       
+    <h2>{{ cut | cut:" " }}</h2>       
+    <h2>{{ dic | dictsort:"name" }}</h2>       
+    <h2>{{ firstFilter | first }}</h2>       
+    <h2>{{ lengthFilter | length }}</h2>       
+    <h2>{{ linenumbersFilter | linenumbers }}</h2>          
+
+</body>
+</html>
